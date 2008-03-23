@@ -3,7 +3,7 @@ package WWW::Pastebin::PastebinCom::Retrieve;
 use warnings;
 use strict;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use URI;
 use HTML::TokeParser::Simple;
@@ -141,7 +141,7 @@ sub _parse {
 
 =head1 NAME
 
-WWW::Pastebin::PastebinCom::Retrieve - The great new WWW::Pastebin::PastebinCom::Retrieve!
+WWW::Pastebin::PastebinCom::Retrieve - retrieve pastes from http://pastebin.com/ website
 
 =head1 SYNOPSIS
 

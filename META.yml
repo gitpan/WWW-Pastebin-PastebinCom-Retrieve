@@ -1,9 +1,9 @@
 ---
 name: WWW-Pastebin-PastebinCom-Retrieve
-version: 0.001
+version: 0.002
 author:
   - 'Zoffix Znet <zoffix@cpan.org>'
-abstract: The great new WWW::Pastebin::PastebinCom::Retrieve!
+abstract: retrieve pastes from http://pastebin.com/ website
 license: perl
 resources:
   license: http://dev.perl.org/licenses/
@@ -18,7 +18,7 @@ build_requires:
 provides:
   WWW::Pastebin::PastebinCom::Retrieve:
     file: lib/WWW/Pastebin/PastebinCom/Retrieve.pm
-    version: 0.001
+    version: 0.002
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
